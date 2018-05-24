@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Test_Socket.Properties {
+namespace MyServer.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Test_Socket.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Test_Socket.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MyServer.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Test_Socket.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _240d5a5ec588ea8a80433c7acb97f6e5 {
+        internal static System.Drawing.Bitmap _Color {
             get {
-                object obj = ResourceManager.GetObject("_240d5a5ec588ea8a80433c7acb97f6e5", resourceCulture);
+                object obj = ResourceManager.GetObject("_Color", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,29 +73,9 @@ namespace Test_Socket.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap black_bold_512 {
+        internal static System.Drawing.Bitmap Bold {
             get {
-                object obj = ResourceManager.GetObject("black_bold_512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap black_italic_512 {
-            get {
-                object obj = ResourceManager.GetObject("black_italic_512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap color_wheel {
-            get {
-                object obj = ResourceManager.GetObject("color_wheel", resourceCulture);
+                object obj = ResourceManager.GetObject("Bold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +366,26 @@ namespace Test_Socket.Properties {
         internal static System.Drawing.Bitmap Favorites {
             get {
                 object obj = ResourceManager.GetObject("Favorites", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Italic {
+            get {
+                object obj = ResourceManager.GetObject("Italic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Underline {
+            get {
+                object obj = ResourceManager.GetObject("Underline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

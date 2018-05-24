@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Test_Socket
+namespace TestClientSocket
 {
     static class Program
     {
@@ -16,8 +16,9 @@ namespace Test_Socket
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Server());
-            //Application.Run(new Frm_FileServer());
+                      Application.Run(new Frm_Clients());
+           // Application.Run(new FrmFileClient());
+
         }
     }
 }
