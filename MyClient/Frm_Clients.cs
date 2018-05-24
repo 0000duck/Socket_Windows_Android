@@ -33,8 +33,6 @@ namespace MyClient
 
         #region ReciveCode
 
-        
-
         private void ReceiveCallback(IAsyncResult ar)
         {
             Socket socket = (Socket)ar.AsyncState;

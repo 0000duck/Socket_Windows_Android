@@ -28,8 +28,8 @@ namespace MyChat
         private List<Socket> listclient = new List<Socket>();
         private MyClient obj = new MyClient();
 
-        public string Timerdate { get => DateTime.Now.ToLongTimeString(); }
-        public bool ConnectionFlaq { get; private set; }
+		public string Timerdate => DateTime.Now.ToLongTimeString();
+		public bool ConnectionFlaq { get; private set; }
         public Socket ClientSocket { get; private set; }
 
 

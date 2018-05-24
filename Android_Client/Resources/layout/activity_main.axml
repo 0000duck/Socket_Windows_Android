@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</RelativeLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layoutDirection="inherit"
+        android:layerType="software"
+        android:pointerIcon="arrow">
+        <EditText
+            android:id="@+id/TXT_IP"
+            android:text="192.168.1.103"
+            android:layout_width="144.0dp"
+            android:layout_height="57.5dp" />
+        <EditText
+            android:id="@+id/TXT_PORT"
+            android:text="5552"
+            android:layout_width="100.0dp"
+            android:layout_height="57.5dp" />
+        <Button
+            android:text="Connect"
+            android:id="@+id/BTN_CONNECT"
+            android:layout_width="wrap_content"
+            android:layout_height="63.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <EditText
+            android:id="@+id/TXT_MESSAGE"
+            android:text="send"
+            android:layout_width="240.0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Send"
+            android:id="@+id/BTN_SEND"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <TextView
+        android:text="Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TXT_ROOM" />
+</LinearLayout>

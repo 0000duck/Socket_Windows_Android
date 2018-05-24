@@ -86,9 +86,9 @@ namespace MyChat
 			// 
 			// Txt_Back
 			// 
-			this.Txt_Back.Location = new System.Drawing.Point(231, 32);
+			this.Txt_Back.Location = new System.Drawing.Point(189, 67);
 			this.Txt_Back.Name = "Txt_Back";
-			this.Txt_Back.Size = new System.Drawing.Size(137, 113);
+			this.Txt_Back.Size = new System.Drawing.Size(184, 50);
 			this.Txt_Back.TabIndex = 1;
 			this.Txt_Back.Text = "";
 			// 
@@ -202,7 +202,6 @@ namespace MyChat
 			// cmdBold
 			// 
 			this.cmdBold.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.cmdBold.Image = global::MyServer.Properties.Resources.Bold;
 			this.cmdBold.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.cmdBold.Name = "cmdBold";
 			this.cmdBold.Size = new System.Drawing.Size(23, 22);
@@ -212,7 +211,6 @@ namespace MyChat
 			// cmdItalic
 			// 
 			this.cmdItalic.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.cmdItalic.Image = global::MyServer.Properties.Resources.Italic;
 			this.cmdItalic.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.cmdItalic.Name = "cmdItalic";
 			this.cmdItalic.Size = new System.Drawing.Size(23, 22);
@@ -222,7 +220,6 @@ namespace MyChat
 			// cmdUnderline
 			// 
 			this.cmdUnderline.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.cmdUnderline.Image = global::MyServer.Properties.Resources.Underline;
 			this.cmdUnderline.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.cmdUnderline.Name = "cmdUnderline";
 			this.cmdUnderline.Size = new System.Drawing.Size(23, 22);
@@ -253,7 +250,6 @@ namespace MyChat
 			// cmdColor
 			// 
 			this.cmdColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.cmdColor.Image = global::MyServer.Properties.Resources._Color;
 			this.cmdColor.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.cmdColor.Name = "cmdColor";
 			this.cmdColor.Size = new System.Drawing.Size(23, 22);
@@ -326,8 +322,8 @@ namespace MyChat
 			// 
 			// splitContainer1.Panel2
 			// 
-			this.splitContainer1.Panel2.Controls.Add(this.Txt_Roomi);
 			this.splitContainer1.Panel2.Controls.Add(this.Txt_Back);
+			this.splitContainer1.Panel2.Controls.Add(this.Txt_Roomi);
 			this.splitContainer1.Size = new System.Drawing.Size(376, 212);
 			this.splitContainer1.SplitterDistance = 32;
 			this.splitContainer1.SplitterWidth = 5;
